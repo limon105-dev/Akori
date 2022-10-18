@@ -1,0 +1,174 @@
+#portfolio {
+    @include pgap(154px, 0, 60px, 0);
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 60px;
+        @include div-body(54px, 109px, #DEDEDE);
+    }
+
+    &:before {
+        position: absolute;
+        content: "";
+        left: 64px;
+        bottom: 35px;
+        @include div-body(24px, 24px, #FBD884);
+    }
+
+    .common-header {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "";
+            left: 54px;
+            top: 0;
+            @include div-body(8px, 8px, #FBD884);
+        }
+
+        &:before {
+            position: absolute;
+            content: "";
+            right: 48px;
+            bottom: 7px;
+            @include div-body(15px, 15px, $hover-color);
+        }
+
+        .h3 {
+            @include fonts($heading_color, 24px, 600, 'Spartan');
+            line-height: 140%;
+            text-transform: capitalize;
+        }
+
+        span {
+            position: absolute;
+            right: 67px;
+            bottom: -5px;
+            @include div-body(7px, 7px, #F5F4F2);
+        }
+
+    }
+
+    .portfolio-wrapper {
+        padding-top: 60px;
+
+        .item-wrapper {
+            margin-bottom: 48px;
+
+            .portfolio-item {
+                @include pgap(10px, 0, 10px, 0);
+                background-color: #F5F4F2;
+                position: relative;
+                overflow: hidden;
+
+                &:hover {
+                    .overlay {
+                        transform: scale(1);
+                        -webkit-transform: scale(1);
+                        -moz-transform: scale(1);
+                        -ms-transform: scale(1);
+                        -o-transform: scale(1);
+                        transform-origin: left;
+                    }
+
+                    picture {
+                        img {
+                            transform: scale(1.2);
+                            -webkit-transform: scale(1.2);
+                            -moz-transform: scale(1.2);
+                            -ms-transform: scale(1.2);
+                            -o-transform: scale(1.2);
+                        }
+                    }
+                }
+
+                picture {
+                    img {
+                        display: block;
+                        margin: auto;
+
+                        transition: .3s;
+                        -webkit-transition: .3s;
+                        -moz-transition: .3s;
+                        -ms-transition: .3s;
+                        -o-transition: .3s;
+                    }
+                }
+
+                .overlay {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    @include div-body(100%, 100%, rgba(33, 33, 33, 0.7));
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                    -moz-transform: scale(0);
+                    -ms-transform: scale(0);
+                    -o-transform: scale(0);
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+
+                    .port-btn {
+
+                        a {
+                            @include pgap(10px, 20px, 10px, 20px);
+                            border: 1px solid #fff;
+                            @include fonts(#fff, 12px, 500, 'Spartan');
+                            line-height: 20px;
+                            transition: .3s;
+                            -webkit-transition: .3s;
+                            -moz-transition: .3s;
+                            -ms-transition: .3s;
+                            -o-transition: .3s;
+
+                            &:hover {
+                                color: $heading_color;
+                                background-color: $hover-color;
+                                border-color: $hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item-header {
+                padding-top: 24px;
+
+                .h4 {
+                    @include fonts($heading_color, 21px, 600, 'Spartan');
+                    line-height: 29px;
+                }
+            }
+        }
+
+        .port-btn {
+            padding-top: 32px;
+
+            a {
+                @include pgap(10px, 20px, 10px, 20px);
+                background-color: $heading_color;
+                @include fonts(#fff, 12px, 500, 'Spartan');
+                line-height: 20px;
+                transition: .3s;
+                -webkit-transition: .3s;
+                -moz-transition: .3s;
+                -ms-transition: .3s;
+                -o-transition: .3s;
+
+                &:hover {
+                    color: $heading_color;
+                    background-color: $hover-color;
+                }
+            }
+        }
+    }
+}

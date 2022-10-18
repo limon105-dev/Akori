@@ -1,0 +1,155 @@
+#contact {
+    @include pgap(100px, 0, 120px, 0);
+    position: relative;
+
+    .common-header {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "";
+            left: 96px;
+            top: 0;
+            @include div-body(18px, 18px, $hover-color);
+        }
+
+        &:before {
+            position: absolute;
+            content: "";
+            right: 73px;
+            bottom: 5px;
+            @include div-body(42px, 35px, $hover-color);
+        }
+
+        h1 {
+            @include fonts($heading_color, 58px, 600, 'Spartan');
+            line-height: 79px;
+            text-transform: capitalize;
+        }
+
+        span {
+            position: absolute;
+            right: 124px;
+            bottom: -14px;
+            @include div-body(18px, 18px, #F5F4F2);
+        }
+
+    }
+
+    .contact-form-row {
+        padding-top: 100px;
+
+        .input-part {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .from-item {
+                width: 49%;
+
+                label {
+                    @include fonts($heading_color, 16px, 500, 'Spartan');
+                    line-height: 16px;
+                    display: block;
+                    padding-bottom: 10px
+                }
+
+                input {
+                    @include fonts($heading_color, 16px, 400, 'Spartan');
+                    line-height: 16px;
+                    @include div-body(100%, 48px, transparent);
+                    padding-left: 16px;
+                    border: 1px solid #DEDEDE;
+
+                    &:focus-visible {
+                        outline: none;
+                    }
+
+                    &::-moz-placeholder {
+                        @include fonts(#C4C4C4, 16px, 400, 'Spartan');
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+
+        .subject-part {
+            margin-bottom: 20px;
+
+            label {
+                @include fonts($heading_color, 16px, 500, 'Spartan');
+                line-height: 16px;
+                display: block;
+                padding-bottom: 10px
+            }
+
+            input {
+                @include fonts($heading_color, 16px, 400, 'Spartan');
+                line-height: 16px;
+                @include div-body(100%, 48px, transparent);
+                padding-left: 16px;
+                border: 1px solid #DEDEDE;
+
+                &:focus-visible {
+                    outline: none;
+                }
+
+                &::-moz-placeholder {
+                    @include fonts(#C4C4C4, 16px, 400, 'Spartan');
+                    line-height: 16px;
+                }
+            }
+        }
+
+        .message-part {
+
+            label {
+                @include fonts($heading_color, 16px, 500, 'Spartan');
+                line-height: 16px;
+                display: block;
+                padding-bottom: 10px
+            }
+
+            textarea {
+                @include fonts($heading_color, 16px, 400, 'Spartan');
+                line-height: 16px;
+                @include div-body(100%, 180px, transparent);
+                @include pgap(16px, 0, 0px, 16px);
+                border: 1px solid #DEDEDE;
+
+                &::-moz-placeholder {
+                    @include fonts(#C4C4C4, 16px, 400, 'Spartan');
+                    line-height: 16px;
+                }
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+        }
+
+        .comment-from-btn {
+            padding-top: 20px;
+
+            button {
+                @include pgap(16px, 32px, 16px, 32px);
+                border: none;
+                @include fonts(#fff, 16px, 500, 'Spartan');
+                background-color: $heading_color;
+                text-transform: capitalize;
+                transition: .3s;
+                -webkit-transition: .3s;
+                -moz-transition: .3s;
+                -ms-transition: .3s;
+                -o-transition: .3s;
+
+                &:hover {
+                    color: $heading_color;
+                    background-color: $hover-color;
+                }
+            }
+        }
+    }
+}

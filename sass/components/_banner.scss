@@ -1,0 +1,101 @@
+#banner {
+    @include pgap(64px, 0, 100px, 0);
+    position: relative;
+
+    .banner-after {
+        span {
+            &:first-child {
+                position: absolute;
+                left: 15%;
+                top: 28%;
+                @include div-body(20px, 20px, #DEDEDE);
+            }
+
+            &:nth-child(2) {
+                position: absolute;
+                left: 19%;
+                top: 38%;
+                @include div-body(46px, 46px, #FEF4DB);
+            }
+
+            &:nth-child(3) {
+                position: absolute;
+                right: 26%;
+                top: 28%;
+                @include div-body(20px, 20px, #FBD884);
+            }
+        }
+    }
+
+    .banner-person {
+        position: relative;
+
+        .banner-img-after {
+            span {
+                &:first-child {
+                    position: absolute;
+                    left: -44px;
+                    top: 0;
+                    @include div-body(28px, 28px, $hover-color);
+                }
+
+                &:nth-child(2) {
+                    position: absolute;
+                    right: -62px;
+                    bottom: 0;
+                    @include div-body(49px, 49px, #dedede);
+                }
+
+                &:nth-child(3) {
+                    position: absolute;
+                    right: -28px;
+                    bottom: 62px;
+                    @include div-body(15px, 15px, $hover-color);
+                }
+            }
+        }
+
+        .person-text {
+            position: absolute;
+            left: -80px;
+            bottom: -75px;
+            @include div-body(124px, 120px, $heading_color);
+            border: 11px solid #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                @include fonts(#fff, 58px, 700, 'Spartan');
+            }
+        }
+    }
+
+    .banner-text {
+        padding-top: 80px;
+        text-align: end;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            right: 272px;
+            bottom: 0;
+            @include div-body(14px, 14px, $hover-color);
+        }
+
+        h2 {
+            @include fonts($heading_color, 58px, 400, 'Spartan');
+            line-height: 75px;
+        }
+
+        p {
+            @include fonts($heading_color, 32px, 400, 'Spartan');
+            line-height: 42px;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}

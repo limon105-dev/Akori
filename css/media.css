@@ -1,0 +1,2459 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    #banner .banner-text h2 {
+        font-size: 56px;
+    }
+
+    #banner .banner-text::after {
+        left: 240px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about .common-header::before {
+        right: -8px;
+    }
+
+    .about .common-header::after {
+        left: -1px;
+    }
+
+    /* ------about1 part start------ */
+    #about-details .common-header::before {
+        right: -30px;
+    }
+
+    #about-details .common-header::after {
+        left: -5px;
+    }
+
+    #about-details .about-details-row .about-left .about-content {
+        padding-bottom: 50px;
+    }
+
+    #about-details .about-details-row .about-left .about-content p {
+        font-size: 14px;
+        line-height: 28px;
+        padding-right: 0;
+    }
+
+    #about-details .about-details-row .about-left .about-content h2 {
+        padding-bottom: 15px;
+    }
+
+    #about-details .about-details-row .about-left .about-content .partnar ul li {
+        padding-right: 39px;
+        padding-bottom: 15px;
+    }
+
+    /* ------about1 part end------ */
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    #portfolio .common-header::before {
+        right: 25px;
+    }
+
+    #portfolio .common-header span {
+        right: 43px;
+    }
+
+    #portfolio .common-header::after {
+        left: 30px;
+    }
+
+    #portfolio .portfolio-wrapper .item-wrapper .portfolio-item {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #portfolio .portfolio-wrapper .item-wrapper .item-header .h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ---- portfolio item part start ---- */
+    #portfolio-item .header-row .common-header::before {
+        right: -18px;
+    }
+
+    #portfolio-item .header-row .common-header span {
+        right: 30px;
+    }
+
+    #portfolio-item .header-row .common-header::after {
+        left: 6px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-wrapper .item-header h4 {
+        font-size: 18px;
+    }
+
+    /* ---- portfolio item part end ---- */
+
+    /* ---- portfolio filter part start ---- */
+    #portfolio-filter .header-row .common-header::before {
+        right: -20px;
+    }
+
+    #portfolio-filter .header-row .common-header span {
+        right: 30px;
+        bottom: -13px;
+    }
+
+    #portfolio-filter .header-row .common-header::after {
+        left: 6px;
+    }
+
+    #portfolio-filter .filters-group-wrap .filters-group .btn-group button {
+        padding-top: 14px;
+        padding-right: 28px;
+        padding-bottom: 14px;
+        padding-left: 28px;
+        font-size: 16px;
+    }
+
+    #portfolio-filter .my-shuffle-container .picture-item .picture-item__inner .picture-item__details p {
+        font-size: 18px;
+    }
+
+    /* ---- portfolio filter part end ---- */
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ===========================================
+             shope part start
+    ============================================*/
+    #shope .common-header::before {
+        right: 48px;
+    }
+
+    #shope .common-header span {
+        right: 67px;
+    }
+
+    #shope .common-header::after {
+        left: 53px;
+    }
+
+    /* -----shope-detail part start---- */
+    #shope-details .common-header::before {
+        right: -10px;
+    }
+
+    #shope-details .common-header::after {
+        left: 12px;
+    }
+
+    /* -----shope-detail part end---- */
+
+    /* -----cotton mask part start---- */
+    #cotton-mask .mySwiper .swiper-button-next::after {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-prev::after {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .shop-more .common-header::before {
+        right: 34px;
+    }
+
+    #cotton-mask .shop-more .common-header span {
+        right: 53px;
+    }
+
+    #cotton-mask .shop-more .common-header::after {
+        left: 41px;
+    }
+
+    /* -----cotton mask part end---- */
+
+    /* ===========================================
+             shope part end
+    ============================================*/
+
+    /* ===========================================
+             action part start
+    ============================================*/
+    #action .action-row .action-item .h3 {
+        font-size: 27px;
+        padding-right: 0;
+    }
+
+    #action .action-row .action-item p {
+        font-size: 17px;
+    }
+
+    /* ===========================================
+             action part end
+    ============================================*/
+
+    /* ===========================================
+             blog part start
+    ============================================*/
+    #blog .common-header::before {
+        right: 48px;
+    }
+
+    #blog .common-header span {
+        right: 67px;
+    }
+
+    #blog .common-header::after {
+        left: 59px;
+    }
+
+    /* -----blog-one part start---- */
+    #blog-details .common-header::before {
+        right: 5px;
+    }
+
+    #blog-details .common-header::after {
+        left: 24px;
+    }
+
+    /* -----blog-one part end---- */
+
+    /* -----Blog-page part start---- */
+    #typography .about-typography .typography-header h1 {
+        font-size: 27px;
+    }
+
+    #typography .post-row .post-wrapper .post-details .post-header h5 a {
+        font-size: 15px;
+    }
+
+    #typography .post-comment .comment-header .comment-header-after span:last-child {
+        max-width: 310px;
+    }
+
+    #typography .post-comment .comment-header .comment-header-after span:first-child {
+        max-width: 255px;
+    }
+
+    #typography .comment-item .comment-text .comment p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    #typography .popular-post h3::before {
+        left: 73px;
+    }
+
+    #typography .popular-post h3::after {
+        right: 65px;
+        ;
+    }
+
+    #typography .popular-wrapper .popular-post-text h4 a {
+        font-size: 18px;
+    }
+
+    #typography .categorie-row .categorie-header h3::after {
+        right: 80px;
+    }
+
+    #typography .categorie-row .categorie-header h3::before {
+        left: 86px;
+    }
+
+    #typography .tag-row .Tag-header h3::before {
+        left: 128px;
+    }
+
+    #typography .tag-row .Tag-header h3::after {
+        right: 120px;
+    }
+
+    /* -----Blog-page part end---- */
+
+    /* ===========================================
+             blog part end
+    ============================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    #footer .footer-item .footer-header .h4 {
+        font-size: 19px;
+    }
+
+    /* -----privacy part start---- */
+    #privacy .privacy-header .common-header::before {
+        right: -9px;
+    }
+
+    #privacy .privacy-header .common-header span {
+        right: 42px;
+    }
+
+    #privacy .privacy-header .common-header::after {
+        left: 18px;
+    }
+
+    #privacy .privacy-content-header h2 {
+        font-size: 24px;
+    }
+
+    /* -----privacy part end---- */
+
+    /* -----contact part start---- */
+    #contact .common-header::before {
+        right: 28px;
+    }
+
+    #contact .common-header span {
+        right: 80px;
+    }
+
+    #contact .common-header::after {
+        left: 6px;
+    }
+
+    #contact .common-header::after {
+        left: 50px;
+    }
+
+    /* -----contact part end---- */
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ===========================================
+             banner part start
+    ============================================*/
+    #banner .banner-text h2 {
+        font-size: 46px;
+    }
+
+    #banner .banner-text p {
+        font-size: 28px;
+    }
+
+    #banner .banner-text::after {
+        left: 195px;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about .common-header::before {
+        right: -21px;
+    }
+
+    .about .common-header::after {
+        left: -16px;
+    }
+
+    .about .about-row .swiper {
+        height: 253px;
+    }
+
+    /* ------about1 part start------ */
+    #about-details .common-header h1 {
+        font-size: 55px;
+    }
+
+    #about-details .common-header::before {
+        right: -50px;
+    }
+
+    #about-details .common-header::after {
+        left: -29px;
+    }
+
+    #about-details .about-details-row .about-left .about-content {
+        padding-bottom: 40px;
+    }
+
+    #about-details .about-details-row .about-left .about-content p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+
+    #about-details .about-details-row .about-left .about-content h2 {
+        padding-bottom: 12px;
+    }
+
+    #about-details .about-details-row .about-left .about-content .partnar ul li {
+        padding-right: 12px;
+        padding-bottom: 10px;
+    }
+
+    /* ------about1 part end------ */
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    #portfolio .common-header::before {
+        right: 0px;
+    }
+
+    #portfolio .common-header span {
+        right: 20px;
+    }
+
+    #portfolio .common-header::after {
+        left: 11px;
+        ;
+    }
+
+    #portfolio .portfolio-wrapper .item-wrapper .portfolio-item {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #portfolio .portfolio-wrapper .item-wrapper .item-header .h4 {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    /* ---- portfolio item part start ---- */
+    #portfolio-item .header-row .common-header::before {
+        right: -50px;
+    }
+
+    #portfolio-item .header-row .common-header span {
+        right: 5px;
+    }
+
+    #portfolio-item .header-row .common-header::after {
+        left: -28px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-wrapper .item-header h4 {
+        font-size: 15px;
+    }
+
+    /* ---- portfolio item part end ---- */
+
+    /* ---- portfolio filter part start ---- */
+    #portfolio-filter .header-row .common-header::before {
+        right: -48px;
+    }
+
+    #portfolio-filter .header-row .common-header span {
+        right: 4px;
+        bottom: -13px;
+        ;
+    }
+
+    #portfolio-filter .header-row .common-header::after {
+        left: -24px;
+    }
+
+    #portfolio-filter .filters-group-wrap .filters-group .btn-group button {
+        padding-top: 12px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    #portfolio-filter .my-shuffle-container .picture-item .picture-item__inner .picture-item__details p {
+        font-size: 15px;
+    }
+
+    /* ---- portfolio filter part end ---- */
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ===========================================
+             shope part start
+    ============================================*/
+    #shope .common-header::before {
+        right: 24px;
+    }
+
+    #shope .common-header span {
+        right: 44px;
+    }
+
+    #shope .common-header::after {
+        left: 30px;
+    }
+
+    /* -----shope-detail part start---- */
+    #shope-details .common-header::before {
+        right: -40px;
+    }
+
+    #shope-details .common-header::after {
+        left: -17px;
+    }
+
+    /* -----shope-detail part end---- */
+
+    /* -----cotton mask part start---- */
+    #cotton-mask .mySwiper .swiper-button-next::after {
+        padding-top: 45px;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-prev::after {
+        padding-top: 45px;
+    }
+
+    #cotton-mask .shop-more .common-header::before {
+        right: 4px;
+    }
+
+    #cotton-mask .shop-more .common-header span {
+        right: 22px;
+    }
+
+    #cotton-mask .shop-more .common-header::after {
+        left: 10px;
+    }
+
+    #cotton-mask .shope-wrapper .shope-item-wrapper .shope-item .overlay h5 {
+        font-size: 13px;
+    }
+
+    #cotton-mask .shope-wrapper .shope-item-wrapper .shope-item .overlay p {
+        font-size: 13px;
+    }
+
+    /* -----cotton mask part end---- */
+
+    /* ===========================================
+             shope part end
+    ============================================*/
+
+    /* ===========================================
+             action part start
+    ============================================*/
+
+    #action .action-row .action-item .h3 {
+        padding-right: 0;
+        font-size: 23px;
+    }
+
+    #action .action-row .action-item {
+        padding-left: 0;
+    }
+
+    #action .action-row::after {
+        left: 210px;
+        bottom: -60px;
+        height: 240px;
+    }
+
+    #action .action-row::before {
+        left: 155px;
+        bottom: -41px;
+    }
+
+    #action .action-row .action-item p {
+        font-size: 15px;
+    }
+
+    #action .port-btn a {
+        padding-top: 10px;
+        padding-right: 22px;
+        padding-bottom: 10px;
+        padding-left: 22px;
+    }
+
+    /* ===========================================
+             action part end
+    ============================================*/
+
+    /* ===========================================
+             blog part start
+    ============================================*/
+    #blog .common-header::before {
+        right: 24px;
+    }
+
+    #blog .common-header span {
+        right: 44px;
+    }
+
+    #blog .common-header::after {
+        left: 36px;
+    }
+
+    /* -----blog-one part start---- */
+    #blog-details .common-header::before {
+        right: -26px;
+    }
+
+    #blog-details .common-header::after {
+        left: -5px;
+    }
+
+    /* -----blog-one part end---- */
+
+    /* -----Blog-page part start---- */
+    #typography .about-typography .typography-header h1 {
+        font-size: 22px;
+    }
+
+    #typography .about-typography .typography-header p {
+        font-size: 15px;
+    }
+
+    #typography .post-row .post-wrapper .post-details .post-date h4 {
+        font-size: 17px;
+    }
+
+    #typography .post-row .post-wrapper .post-details .post-header h5 a {
+        font-size: 14px;
+    }
+
+    #typography .comment-item .comment-text .person-details h5 {
+        font-size: 16px;
+    }
+
+    #typography .post-comment .comment-header .comment-header-after span:last-child {
+        max-width: 275px;
+    }
+
+    #typography .post-comment .comment-header .comment-header-after span:first-child {
+        left: 118px;
+        max-width: 246px;
+    }
+
+    #typography .comment-item .comment-text .comment p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    .comment-text {
+        padding-left: 20px;
+    }
+
+    #typography .popular-post h3::after {
+        right: 35px;
+    }
+
+    #typography .popular-post h3::before {
+        left: 43px;
+    }
+
+    #typography .popular-wrapper .popular-post-text h4 a {
+        font-size: 15px;
+    }
+
+    #typography .categorie-row .categorie-header h3::before {
+        left: 58px;
+    }
+
+    #typography .categorie-row .categorie-header h3::after {
+        right: 50px;
+    }
+
+    #typography .tag-row .Tag-header h3::after {
+        right: 90px;
+    }
+
+    #typography .tag-row .Tag-header h3::before {
+        left: 98px;
+    }
+
+    /* -----Blog-page part end---- */
+
+    /* ===========================================
+             blog part end
+    ============================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    #footer .footer-item .footer-logo p {
+        font-size: 14px;
+    }
+
+    #footer .footer-item .footer-header .h4 {
+        font-size: 15px;
+    }
+
+    #footer .footer-item .footer-list ul li a {
+        font-size: 13px;
+    }
+
+    /* -----privacy part start---- */
+    #privacy .privacy-header .common-header::before {
+        right: -55px;
+    }
+
+    #privacy .privacy-header .common-header span {
+        right: -5px;
+    }
+
+    #privacy .privacy-header .common-header::after {
+        left: -26px;
+    }
+
+    #privacy .privacy-content-header h2 {
+        font-size: 20px;
+    }
+
+    /* -----privacy part end---- */
+
+    /* -----contact part start---- */
+    #contact .common-header::before {
+        right: -25px;
+    }
+
+    #contact .common-header span {
+        right: 30px;
+    }
+
+    #contact .common-header::after {
+        left: 6px;
+    }
+
+    /* -----contact part end---- */
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-expand-lg .navbar-collapse button {
+        margin-left: 36px;
+    }
+
+    .navbar-expand-lg .navbar-collapse .search-bar input {
+        left: 66px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+    /* ===========================================
+                 banner part start
+    ============================================*/
+    #banner {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .banner-after {
+        display: none;
+    }
+
+    .img-fluid {
+        display: block;
+        margin: auto;
+    }
+
+    .banner-img-after {
+        display: none;
+    }
+
+    #banner .banner-text {
+        text-align: center;
+    }
+
+    #banner .banner-person .person-text {
+        left: 195px;
+        bottom: -96px;
+    }
+
+    #banner .banner-text::after {
+        display: none;
+    }
+
+    /* ==========================================
+                 banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about .common-header::before {
+        display: none;
+    }
+
+    .about .common-header::after {
+        display: none;
+    }
+
+    /* ------about1 part start------ */
+    #about-details {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #about-details .about-details-row {
+        padding-top: 50px;
+    }
+
+    #about-details .common-header::before {
+        display: none;
+    }
+
+    #about-details .common-header::after {
+        display: none;
+    }
+
+    /* ------about1 part end------ */
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio .common-header::after {
+        display: none;
+    }
+
+    #portfolio .common-header::before {
+        display: none;
+    }
+
+    #portfolio .common-header span {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn {
+        padding-top: 0;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::after {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::before {
+        display: none;
+    }
+
+    #portfolio::after {
+        display: none;
+    }
+
+    #portfolio::before {
+        display: none;
+    }
+
+    /* ---- portfolio item part start ---- */
+    #portfolio-item {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-item .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-item .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-top-header {
+        margin-bottom: 30px;
+    }
+
+    /* ---- portfolio item part end ---- */
+
+    /* ---- portfolio filter part start ---- */
+    #portfolio-filter {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio-filter .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-filter .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-filter .filters-group-wrap .filters-group .btn-group button {
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        margin-right: 8px;
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #portfolio-filter .my-shuffle-container .picture-item .picture-item__inner .picture-item__details p {
+        font-size: 16px;
+    }
+
+    /* ---- portfolio filter part end ---- */
+
+    /* ==========================================
+             portfolio part end
+    ============================================*/
+
+    /* ==========================================
+              shope part start
+    =============================================*/
+    #shope {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #shope::after {
+        display: none;
+    }
+
+    #shope::before {
+        display: none;
+    }
+
+    #shope .common-header::after {
+        display: none;
+    }
+
+    #shope .common-header::before {
+        display: none;
+    }
+
+    #shope .common-header span {
+        display: none;
+    }
+
+    #shope .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    /* -----shope-detail part start---- */
+    #shope-details .common-header::before {
+        display: none;
+    }
+
+    #shope-details .common-header::after {
+        display: none;
+    }
+
+    /* -----shope-detail part end---- */
+
+    /* -----cotton mask part start---- */
+    #cotton-mask {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #cotton-mask .mask-header {
+        padding-top: 20px;
+    }
+
+    #cotton-mask .mask-header {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .mySwiper2 {
+        padding-bottom: 45px;
+    }
+
+    #cotton-mask .shop-more {
+        padding-top: 60px;
+    }
+
+    #cotton-mask .shope-wrapper {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .shop-more .common-header::before {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header span {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header::after {
+        display: none;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-next::after {
+        padding-top: 57px;
+        padding-bottom: 57px;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-prev::after {
+        padding-top: 57px;
+        padding-bottom: 57px;
+    }
+
+    /* -----cotton mask part end---- */
+
+    /* ==========================================
+              shope part end
+    =============================================*/
+
+    /* ==========================================
+              action part start
+    =============================================*/
+    #action .action-row .action-item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #action .action-row::after {
+        display: none;
+    }
+
+    #action .action-row::before {
+        display: none;
+    }
+
+    #action .action-row .action-item .h3 {
+        padding-right: 0;
+        font-size: 26px;
+    }
+
+    /* ==========================================
+              action part end
+    =============================================*/
+
+    /* ==========================================
+              blog part start
+    =============================================*/
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #blog::after {
+        display: none;
+    }
+
+    #blog::before {
+        display: none;
+    }
+
+    #blog .common-header::after {
+        display: none;
+    }
+
+    #blog .common-header::before {
+        display: none;
+    }
+
+    #blog .common-header span {
+        display: none;
+    }
+
+    #blog .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    /* -----blog-one part start---- */
+    #blog-details {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #blog-details .blog-wrapper {
+        padding-top: 50px;
+    }
+
+    #blog-details .common-header::before {
+        display: none;
+    }
+
+    #blog-details .common-header::after {
+        display: none;
+    }
+
+    /* -----blog-one part end---- */
+
+    /* -----Blog-page part start---- */
+    #typography {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #typography .about-typography .typography-header h1 {
+        text-align: center;
+    }
+
+    #typography .about-typography .typography-header p {
+        text-align: center;
+    }
+
+    #typography .about-typography .typography-text p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #typography .digital-agency {
+        margin-bottom: 20px;
+    }
+
+    #typography .vintage h3 {
+        text-align: center;
+    }
+
+    #typography .digital-agency-text p {
+        text-align: center;
+    }
+
+    #typography .vintage p {
+        text-align: center;
+    }
+
+    #typography .vintage .vintage-icon {
+        padding-top: 30px;
+    }
+
+    .post-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .comment-header-after {
+        display: none;
+    }
+
+    #typography .post-comment .comment-header {
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    #typography .popular-post {
+        margin-top: 40px;
+    }
+
+    .popular-post-text {
+        margin-top: 15px;
+    }
+
+    #typography .popular-post h3::before {
+        display: none;
+    }
+
+    #typography .popular-post h3::after {
+        display: none;
+    }
+
+    #typography .popular-wrapper {
+        margin-bottom: 35px;
+    }
+
+    #typography .categorie-row {
+        padding-top: 40px;
+    }
+
+    #typography .categorie-row .categorie-header h3::before {
+        display: none;
+    }
+
+    #typography .categorie-row .categorie-header h3::after {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::before {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::after {
+        display: none;
+    }
+
+    /* -----Blog-page part end---- */
+
+    /* ==========================================
+              blog part end
+    =============================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    #footer .footer-item .footer-contact {
+        padding-bottom: 25px;
+    }
+
+    /* -----privacy part start---- */
+    #privacy {
+        padding-top: 50px;
+    }
+
+    #privacy .privacy-header .common-header::before {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header::after {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header span {
+        display: none;
+    }
+
+    #privacy .privacy-header {
+        padding-bottom: 20px;
+    }
+
+    /* -----privacy part end---- */
+
+    /* -----contact part start---- */
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #contact .contact-form-row {
+        padding-top: 50px;
+    }
+
+    #contact .common-header::before {
+        display: none;
+    }
+
+    #contact .common-header::after {
+        display: none;
+    }
+
+    #contact .common-header span {
+        display: none;
+    }
+
+    /* -----contact part end---- */
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* ===========================================
+                 navbar part start
+    ============================================*/
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-expand-lg .navbar-collapse button {
+        margin-left: 36px;
+    }
+
+    .navbar-expand-lg .navbar-collapse .search-bar input {
+        left: 66px;
+    }
+
+    /* ===========================================
+                 navbar part end
+    ============================================*/
+
+    /* ===========================================
+                 banner part start
+    ============================================*/
+    #banner {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .banner-after {
+        display: none;
+    }
+
+    .img-fluid {
+        display: block;
+        margin: auto;
+    }
+
+    .banner-img-after {
+        display: none;
+    }
+
+    #banner .banner-text {
+        text-align: center;
+    }
+
+    #banner .banner-person .person-text {
+        left: 195px;
+        bottom: -96px;
+    }
+
+    #banner .banner-text::after {
+        display: none;
+    }
+
+    /* ===========================================
+                 banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about .common-header::before {
+        display: none;
+    }
+
+    .about .common-header::after {
+        display: none;
+    }
+
+    .about .about-row .swiper {
+        height: 330px;
+        position: relative;
+    }
+
+    /* ------about1 part start------ */
+    #about-details {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #about-details .about-details-row {
+        padding-top: 50px;
+    }
+
+    #about-details .common-header::before {
+        display: none;
+    }
+
+    #about-details .common-header::after {
+        display: none;
+    }
+
+    /* ------about1 part end------ */
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio .common-header::after {
+        display: none;
+    }
+
+    #portfolio .common-header::before {
+        display: none;
+    }
+
+    #portfolio .common-header span {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper {
+        padding-top: 40px;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn {
+        padding-top: 0;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::after {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::before {
+        display: none;
+    }
+
+    #portfolio::after {
+        display: none;
+    }
+
+    #portfolio::before {
+        display: none;
+    }
+
+    /* ---- portfolio item part start ---- */
+    #portfolio-item {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-item .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-item .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-top-header {
+        margin-bottom: 30px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-wrapper .item-header h4 {
+        font-size: 17px;
+    }
+
+    /* ---- portfolio item part end ---- */
+
+    /* ---- portfolio filter part start ---- */
+    #portfolio-filter {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio-filter .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-filter .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-filter .filters-group-wrap .filters-group .btn-group button {
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        margin-right: 8px;
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #portfolio-filter .my-shuffle-container .picture-item .picture-item__inner .picture-item__details p {
+        font-size: 16px;
+    }
+
+    /* ---- portfolio filter part end ---- */
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ==========================================
+              shope part start
+    =============================================*/
+    #shope {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #shope::after {
+        display: none;
+    }
+
+    #shope::before {
+        display: none;
+    }
+
+    #shope .common-header::after {
+        display: none;
+    }
+
+    #shope .common-header::before {
+        display: none;
+    }
+
+    #shope .common-header span {
+        display: none;
+    }
+
+    #shope .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    #shope .shope-wrapper .shope-item-wrapper .shope-item .overlay {
+        left: 10px;
+        top: 10px;
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    #shope .shope-wrapper .shope-item-wrapper .shope-item .overlay .h5 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #shope .shope-wrapper .shope-item-wrapper .shope-item .overlay p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    /* -----shope-detail part start---- */
+    #shope-details .common-header::before {
+        display: none;
+    }
+
+    #shope-details .common-header::after {
+        display: none;
+    }
+
+    /* -----shope-detail part end---- */
+
+    /* -----cotton mask part start---- */
+    #cotton-mask {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #cotton-mask .mySwiper2 {
+        padding-bottom: 30px;
+    }
+
+    #cotton-mask .mask-left-side {
+        padding-top: 30px;
+    }
+
+    #cotton-mask .mask-header {
+        padding-top: 20px;
+    }
+
+    #cotton-mask .mask-header {
+        padding-bottom: 25px;
+    }
+
+    #cotton-mask .shop-more {
+        padding-top: 60px;
+    }
+
+    #cotton-mask .shope-wrapper {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .shop-more .common-header::before {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header span {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header::after {
+        display: none;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-next::after {
+        padding-bottom: 38px;
+    }
+
+    #cotton-mask .mySwiper .swiper-button-prev::after {
+        padding-bottom: 38px;
+    }
+
+    /* -----cotton mask part end---- */
+
+    /* ==========================================
+              shope part end
+    =============================================*/
+
+    /* ==========================================
+              action part start
+    =============================================*/
+    #action .action-row .action-item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #action .action-row::after {
+        display: none;
+    }
+
+    #action .action-row::before {
+        display: none;
+    }
+
+    #action .action-row .action-item .h3 {
+        padding-right: 0;
+        font-size: 26px;
+    }
+
+    /* ==========================================
+              action part end
+    =============================================*/
+
+    /* ==========================================
+              blog part start
+    =============================================*/
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #blog::after {
+        display: none;
+    }
+
+    #blog::before {
+        display: none;
+    }
+
+    #blog .common-header::after {
+        display: none;
+    }
+
+    #blog .common-header::before {
+        display: none;
+    }
+
+    #blog .common-header span {
+        display: none;
+    }
+
+    #blog .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    /* -----blog-one part start---- */
+    #blog-details {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #blog-details .blog-wrapper {
+        padding-top: 50px;
+    }
+
+    #blog-details .common-header::before {
+        display: none;
+    }
+
+    #blog-details .common-header::after {
+        display: none;
+    }
+
+    /* -----blog-one part end---- */
+
+    /* -----Blog-page part start---- */
+    #typography {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #typography .about-typography .typography-header h1 {
+        text-align: center;
+    }
+
+    #typography .about-typography .typography-text p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #typography .digital-agency {
+        margin-bottom: 20px;
+    }
+
+    #typography .vintage h3 {
+        text-align: center;
+    }
+
+    #typography .digital-agency-text p {
+        text-align: center;
+    }
+
+    #typography .vintage p {
+        text-align: center;
+    }
+
+    #typography .vintage .vintage-icon {
+        padding-top: 30px;
+    }
+
+    .comment-from-btn {
+        text-align: center;
+    }
+
+    .post-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .comment-header-after {
+        display: none;
+    }
+
+    #typography .post-comment .comment-header {
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    #typography .popular-post {
+        margin-top: 40px;
+    }
+
+    .popular-post-text {
+        margin-top: 15px;
+    }
+
+    #typography .popular-post h3::before {
+        display: none;
+    }
+
+    #typography .popular-post h3::after {
+        display: none;
+    }
+
+    #typography .popular-wrapper {
+        margin-bottom: 35px;
+    }
+
+    #typography .categorie-row {
+        padding-top: 40px;
+    }
+
+    #typography .categorie-row .categorie-header h3::before {
+        display: none;
+    }
+
+    #typography .categorie-row .categorie-header h3::after {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::before {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::after {
+        display: none;
+    }
+
+    /* -----Blog-page part end---- */
+
+    /* ==========================================
+              blog part end
+    =============================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    #footer .footer-item .footer-contact {
+        padding-bottom: 25px;
+    }
+
+    /* -----privacy part start---- */
+    #privacy {
+        padding-top: 50px;
+    }
+
+    #privacy .privacy-header .common-header::before {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header::after {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header span {
+        display: none;
+    }
+
+    #privacy .privacy-header {
+        padding-bottom: 20px;
+    }
+
+    /* -----privacy part end---- */
+
+    /* -----contact part start---- */
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #contact .contact-form-row {
+        padding-top: 50px;
+    }
+
+    #contact .common-header::before {
+        display: none;
+    }
+
+    #contact .common-header::after {
+        display: none;
+    }
+
+    #contact .common-header span {
+        display: none;
+    }
+
+    /* -----contact part end---- */
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+
+@media (max-width: 575px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-expand-lg .navbar-collapse button {
+        margin-left: 36px;
+    }
+
+    .navbar-expand-lg .navbar-collapse .search-bar input {
+        left: 66px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+
+    /* ===========================================
+            banner part start
+    ============================================*/
+    #banner {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .banner-after {
+        display: none;
+    }
+
+    .img-fluid {
+        display: block;
+        margin: auto;
+    }
+
+    .banner-img-after {
+        display: none;
+    }
+
+    #banner .banner-person .person-text {
+        left: 10px;
+        bottom: -92px;
+    }
+
+    #banner .banner-text::after {
+        display: none;
+    }
+
+    #banner .banner-text h2 {
+        font-size: 33px;
+    }
+
+    #banner .banner-text p {
+        font-size: 20px;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about .common-header::before {
+        display: none;
+    }
+
+    .about .common-header::after {
+        display: none;
+    }
+
+    .about .about-row .swiper {
+        height: 550px;
+    }
+
+    .about .about-row .swiper .swiper-wrapper .swiper-slide .swiper-inner h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about .about-row .swiper .swiper-wrapper .swiper-slide .swiper-inner p {
+        text-align: center;
+    }
+
+    .about .about-row .swiper .swiper-wrapper .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        margin-top: 20px;
+    }
+
+    /* ------about1 part start------ */
+    #about-details {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #about-details .about-details-row {
+        padding-top: 50px;
+    }
+
+    #about-details .common-header::before {
+        display: none;
+    }
+
+    #about-details .common-header::after {
+        display: none;
+    }
+
+    /* ------about1 part end------ */
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio .common-header::after {
+        display: none;
+    }
+
+    #portfolio .common-header::before {
+        display: none;
+    }
+
+    #portfolio .common-header span {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper {
+        padding-top: 40px;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn {
+        padding-top: 0;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::after {
+        display: none;
+    }
+
+    #portfolio .portfolio-wrapper .port-btn::before {
+        display: none;
+    }
+
+    #portfolio::after {
+        display: none;
+    }
+
+    #portfolio::before {
+        display: none;
+    }
+
+    /* ---- portfolio item part start ---- */
+    #portfolio-item {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-item .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-item .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-item .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-item .portfolio-wrapper .item-top-header {
+        margin-bottom: 30px;
+    }
+
+    /* ---- portfolio item part end ---- */
+
+    /* ---- portfolio filter part start ---- */
+    #portfolio-filter {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio-filter .header-row .common-header::before {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header::after {
+        display: none;
+    }
+
+    #portfolio-filter .header-row .common-header span {
+        display: none;
+    }
+
+    #portfolio-filter .header-row {
+        margin-bottom: 50px;
+    }
+
+    #portfolio-filter .filters-group-wrap .filters-group .btn-group button {
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        margin-right: 8px;
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #portfolio-filter .my-shuffle-container .picture-item .picture-item__inner .picture-item__details p {
+        font-size: 16px;
+    }
+
+    /* ---- portfolio filter part end ---- */
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ==========================================
+              shope part start
+    =============================================*/
+    #shope {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #shope::after {
+        display: none;
+    }
+
+    #shope::before {
+        display: none;
+    }
+
+    #shope .common-header::after {
+        display: none;
+    }
+
+    #shope .common-header::before {
+        display: none;
+    }
+
+    #shope .common-header span {
+        display: none;
+    }
+
+    #shope .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    /* -----shope-detail part start---- */
+    #shope-details .common-header::before {
+        display: none;
+    }
+
+    #shope-details .common-header::after {
+        display: none;
+    }
+
+    /* -----shope-detail part end---- */
+
+    /* -----cotton mask part start---- */
+    #cotton-mask {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #cotton-mask .mySwiper2 {
+        padding-bottom: 30px;
+    }
+
+    #cotton-mask .mask-left-side {
+        padding-top: 30px;
+    }
+
+    #cotton-mask .mask-header h2 {
+        font-size: 25px;
+    }
+
+    #cotton-mask .mask-header {
+        padding-bottom: 25px;
+    }
+
+    #cotton-mask .shop-more {
+        padding-top: 60px;
+    }
+
+    #cotton-mask .shope-wrapper {
+        padding-top: 40px;
+    }
+
+    #cotton-mask .shop-more .common-header::before {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header span {
+        display: none;
+    }
+
+    #cotton-mask .shop-more .common-header::after {
+        display: none;
+    }
+
+    /* -----cotton mask part end---- */
+    /* ==========================================
+              shope part end
+    =============================================*/
+
+    /* ==========================================
+              action part start
+    =============================================*/
+    #action .action-row .action-item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #action .action-row::after {
+        display: none;
+    }
+
+    #action .action-row::before {
+        display: none;
+    }
+
+    #action .action-row .action-item .h3 {
+        padding-right: 0;
+        font-size: 26px;
+    }
+
+    /* ==========================================
+              action part end
+    =============================================*/
+
+    /* ==========================================
+              blog part start
+    =============================================*/
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    #blog::after {
+        display: none;
+    }
+
+    #blog::before {
+        display: none;
+    }
+
+    #blog .common-header::after {
+        display: none;
+    }
+
+    #blog .common-header::before {
+        display: none;
+    }
+
+    #blog .common-header span {
+        display: none;
+    }
+
+    #blog .shope-wrapper {
+        padding-top: 30px;
+    }
+
+    /* -----blog-one part start---- */
+    #blog-details {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #blog-details .blog-wrapper {
+        padding-top: 50px;
+    }
+
+    #blog-details .common-header::before {
+        display: none;
+    }
+
+    #blog-details .common-header::after {
+        display: none;
+    }
+
+    /* -----blog-one part end---- */
+
+    /* -----Blog-page part start---- */
+    #typography {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #typography .about-typography .typography-header h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    #typography .about-typography .typography-text p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #typography .digital-agency {
+        margin-bottom: 20px;
+    }
+
+    #typography .vintage h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    #typography .vintage p {
+        text-align: center;
+    }
+
+    #typography .vintage .vintage-icon {
+        padding-top: 30px;
+    }
+
+    .comment-from-btn {
+        text-align: center;
+    }
+
+    .post-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .comment-header-after {
+        display: none;
+    }
+
+    #typography .post-comment .comment-header {
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    #typography .popular-post {
+        margin-top: 40px;
+    }
+
+    #typography .popular-post h3::before {
+        display: none;
+    }
+
+    #typography .popular-post h3::after {
+        display: none;
+    }
+
+    #typography .popular-wrapper {
+        margin-bottom: 35px;
+    }
+
+    #typography .categorie-row {
+        padding-top: 40px;
+    }
+
+    #typography .categorie-row .categorie-header h3::before {
+        display: none;
+    }
+
+    #typography .categorie-row .categorie-header h3::after {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::before {
+        display: none;
+    }
+
+    #typography .tag-row .Tag-header h3::after {
+        display: none;
+    }
+
+    /* -----Blog-page part end---- */
+
+    /* ==========================================
+              blog part end
+    =============================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    #footer .footer-item .footer-contact {
+        padding-bottom: 25px;
+    }
+
+    #footer .copyright .copyright-info p {
+        text-align: center;
+    }
+
+    /* -----privacy part start---- */
+    #privacy {
+        padding-top: 50px;
+    }
+
+    #privacy .privacy-header .common-header::before {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header::after {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header span {
+        display: none;
+    }
+
+    #privacy .privacy-header .common-header h3 {
+        font-size: 38px;
+    }
+
+    #privacy .privacy-header {
+        padding-bottom: 20px;
+    }
+
+    /* -----privacy part end---- */
+
+    /* -----contact part start---- */
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #contact .contact-form-row {
+        padding-top: 50px;
+    }
+
+    #contact .common-header::before {
+        display: none;
+    }
+
+    #contact .common-header::after {
+        display: none;
+    }
+
+    #contact .common-header span {
+        display: none;
+    }
+
+    #contact .common-header h1 {
+        font-size: 46px;
+    }
+
+    /* -----contact part end---- */
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}

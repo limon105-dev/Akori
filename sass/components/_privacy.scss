@@ -1,0 +1,75 @@
+#privacy {
+    @include pgap(100px, 0, 70px, 0);
+
+    .privacy-header {
+        padding-bottom: 100px;
+
+        .common-header {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: "";
+                left: 62px;
+                top: 0;
+                @include div-body(18px, 18px, $hover-color);
+            }
+
+            &:before {
+                position: absolute;
+                content: "";
+                right: 38px;
+                bottom: 5px;
+                @include div-body(42px, 35px, $hover-color);
+            }
+
+            h3 {
+                @include fonts($heading_color, 58px, 600, 'Spartan');
+                line-height: 79px;
+                text-transform: capitalize;
+            }
+
+            span {
+                position: absolute;
+                right: 88px;
+                bottom: -18px;
+                @include div-body(18px, 18px, #F5F4F2);
+            }
+
+        }
+    }
+
+    .privacy-content-header {
+        padding-bottom: 48px;
+
+        h2 {
+            @include fonts($heading_color, 28px, 600, 'Spartan');
+            line-height: 38px;
+            text-transform: capitalize;
+        }
+    }
+
+    .content {
+        padding-bottom: 48px;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        .content-common-header {
+
+            h3 {
+                @include fonts($heading_color, 24px, 600, 'Spartan');
+                line-height: 33px;
+                text-transform: capitalize;
+                padding-bottom: 24px;
+            }
+
+            p {
+                @include fonts(#555, 16px, 400, 'Spartan');
+                line-height: 26px;
+            }
+
+        }
+    }
+}

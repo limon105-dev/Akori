@@ -1,0 +1,20 @@
+@import "./mixins/gapping";
+
+@import "./common/common";
+
+@import "./mixins/fonts";
+@import "./mixins/div-layout";
+
+@import "./variables/bgcolor.scss";
+@import "./variables/color.scss";
+
+@import "./pages/home";
+@import "./pages/about1";
+@import "./pages/blog";
+@import "./pages/my-shop";
+@import "./pages/blog-page";
+@import "./pages/portfolio";
+@import "./pages/portfolio-mix";
+@import "./pages/cotton-mask";
+@import "./pages/privacy-page";
+@import "./pages/contact-page";

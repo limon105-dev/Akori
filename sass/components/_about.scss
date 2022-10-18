@@ -1,0 +1,97 @@
+.about {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include pgap(100px, 0, 100px, 0);
+
+    .common-header {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "";
+            left: 18px;
+            top: 0;
+            @include div-body(8px, 8px, $hover-color);
+        }
+
+        &:before {
+            position: absolute;
+            content: "";
+            right: 15px;
+            bottom: 5px;
+            @include div-body(15px, 15px, $hover-color);
+        }
+
+        .h3 {
+            @include fonts($heading_color, 24px, 600, 'Spartan');
+            line-height: 140%;
+            text-transform: capitalize;
+        }
+    }
+
+    .about-row {
+        padding-top: 50px;
+
+        .swiper {
+            height: 235px;
+
+            .swiper-wrapper {
+                padding-bottom: 25px;
+
+                .swiper-slide {
+                    padding-left: 55px;
+
+                    .swiper-inner {
+                        .h4 {
+                            @include fonts($heading_color, 28px, 600, 'Spartan');
+                            line-height: 38px;
+                            text-transform: capitalize;
+                            padding-bottom: 25px
+                        }
+
+                        p {
+                            @include fonts($heading_color, 16px, 400, 'Spartan');
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+
+            .swiper-pagination {
+                position: absolute;
+                right: auto;
+
+                .swiper-pagination-bullet {
+                    @include div-body(10px, 10px, $heading_color);
+                    display: inline-block;
+                    border-radius: 50%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 18px;
+                    opacity: 1;
+                }
+
+                .swiper-pagination-bullet-active {
+                    opacity: 1;
+                    @include div-body(16px, 16px, transparent);
+                    border: 5px solid $hover-color;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+
+        }
+
+        .about-img-right {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    }
+}

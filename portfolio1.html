@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akari | Portfolio Filter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo/fev-icon.jpg" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- ===============================================
+                    navbar part start
+    =================================================-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <picture>
+                    <img src="images/logo/logo.png" alt="logo">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="blog.html">
+                            Blog <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="portfolio.html">
+                            portfolio <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="portfolio1.html">Portfolio 1</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio 2</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <button type="button">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- ===============================================
+                    navbar part end
+    =================================================-->
+
+    <!-- ===============================================
+                    portfolio part start
+    =================================================-->
+    <section id="portfolio-filter">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-lg-4 m-auto">
+                    <div class="common-header text-center">
+                        <h1>portfolio</h1>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 filters-group-wrap m-auto">
+                    <div class="filters-group">
+                        <div class="btn-group filter-options">
+                            <button class=" btn--primary" data-group="all">all</button>
+                            <button class=" btn--primary" data-group="mobile"><i
+                                    class="fa-solid fa-mobile-retro"></i>mobile app</button>
+                            <button class=" btn--primary" data-group="themes"><i
+                                    class="fa-sharp fa-solid fa-id-card"></i>themes</button>
+                            <button class=" btn--primary" data-group="Brochures"><i
+                                    class="fa-solid fa-newspaper"></i>Brochures</button>
+                            <button class=" btn--primary" data-group="logo"><i
+                                    class="fa-solid fa-file-contract"></i>logo & branding</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grid" class="row my-shuffle-container">
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","themes"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter1.png" alt="portfolio-filter1"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>Minimal Mobile app design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","logo"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter2.jpg" alt="portfolio-filter2"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>Web application landing page</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","Brochures"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter3.jpg" alt="portfolio-filter3"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>airlines logo & branding design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","mobile"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter4.jpg" alt="portfolio-filter4"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>home decoration mobile app</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","logo"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter5.jpg" alt="portfolio-filter5"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>Minimal brochure design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","mobile","themes"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter6.jpg" alt="portfolio-filter6"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>Professional Social Media Service
+                                mobile app design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","mobile","themes"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter7.jpg" alt="portfolio-filter7"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>airlines logo & branding design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 picture-item" data-groups='["all","mobile","themes"]'>
+                    <div class="picture-item__inner">
+                        <div class="aspect__inner">
+                            <img src="images/portfolio/portfolio-filter/portfolio-filter8.jpg" alt="portfolio-filter8"
+                                class=" w-100 lazy-load">
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-item__details">
+                            <p>Web application landing page</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    portfolio part end
+    =================================================-->
+
+    <!-- ===============================================
+                    footer part start
+    =================================================-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a href="#"><img src="images/logo/footer-logo.png" alt="footer-logo"></a>
+                            <p>Quisque sem ipsum, placerat nec tortor
+                                vel, blandit vestibulum libero.</p>
+                        </div>
+                        <div class="footer-contact">
+                            <h2 class="h4">
+                                follow on:
+                            </h2>
+                            <div class="contact-list">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 offset-lg-1">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">portfolio</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">mobile apps</a></li>
+                                <li><a href="#">brochures</a></li>
+                                <li><a href="#">theme templetes</a></li>
+                                <li><a href="#">logo & branding</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 offset-lg-1">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">blog</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">Design idea</a></li>
+                                <li><a href="#">typography</a></li>
+                                <li><a href="#">ux roles</a></li>
+                                <li><a href="#">color sence</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">Help & Support</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">contact</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">terms & conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-6 m-auto">
+                    <div class="copyright-info text-center">
+                        <p>Developed with love by Md Limon Ali © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    footer part end
+    =================================================-->
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+
+    <!-- ===============================================
+                    js link start
+    =================================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ===============================================
+                    js link end
+    =================================================-->
+</body>
+
+</html>

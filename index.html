@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akari | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo/fev-icon.jpg" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- ===============================================
+                    navbar part start
+    =================================================-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#banner">
+                <picture>
+                    <img src="images/logo/logo.png" alt="logo">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a class="nav-link" href="blog.html">
+                            Blog <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="portfolio.html">
+                            portfolio <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="portfolio1.html">Portfolio 1</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio 2</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">
+                            Pages <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Page</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
+                            <li><a class="dropdown-item" href="portfolio.html">Portfolio Page</a></li>
+                            <li><a class="dropdown-item" href="portfolio1.html">Portfolio-filter Page</a></li>
+                            <li><a class="dropdown-item" href="shop.html">Shop Page</a></li>
+                            <li><a class="dropdown-item" href="blog-page.html">Single-blog Page</a></li>
+                            <li><a class="dropdown-item" href="cotton-mask.html">Mask Page</a></li>
+                            <li><a class="dropdown-item" href="privacy.html">Privacy Page</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <div class="search-bar">
+                    <button type="submit" data-bs-toggle="collapse" href="#search">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" id="search" class="collapse" placeholder="search">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ===============================================
+                    navbar part end
+    =================================================-->
+
+    <!-- ===============================================
+                    banner part start
+    =================================================-->
+    <section id="banner">
+        <div class="banner-after">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 m-auto">
+                    <div class="banner-person">
+                        <picture>
+                            <img src="images/banner/banner-person.jpg" alt="banner-person" class="img-fluid lazyload">
+                        </picture>
+                        <div class="person-text">
+                            <h1>Hi</h1>
+                        </div>
+                        <div class="banner-img-after">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 m-auto">
+                        <div class="banner-text">
+                            <h2>I’m Jason Ratul</h2>
+                            <p>I’m a <span>Designer</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    banner part end
+    =================================================-->
+
+    <!-- ===============================================
+                    about part start
+    =================================================-->
+    <section id="about" class="about" style="background-image: url(images/about/about-backgound.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 m-auto">
+                    <div class="common-header text-center">
+                        <h2 class="h3">about me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row about-row align-items-center">
+                <div class="col-lg-7">
+                    <div class="swiper mySwiper_about">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-inner">
+                                    <h3 class="h4">My Design Career</h3>
+                                    <p>Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi
+                                        sollicitudin
+                                        viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                        vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam
+                                        ultricies
+                                        sem
+                                        vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis
+                                        faucibus.
+                                        Quisque sem ipsum</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-inner">
+                                    <h3 class="h4">My Design Career</h3>
+                                    <p>Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi
+                                        sollicitudin
+                                        viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                        vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam
+                                        ultricies
+                                        sem
+                                        vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis
+                                        faucibus.
+                                        Quisque sem ipsum</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-inner">
+                                    <h3 class="h4">My Design Career</h3>
+                                    <p>Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi
+                                        sollicitudin
+                                        viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                        vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam
+                                        ultricies
+                                        sem
+                                        vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis
+                                        faucibus.
+                                        Quisque sem ipsum</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-inner">
+                                    <h3 class="h4">My Design Career</h3>
+                                    <p>Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi
+                                        sollicitudin
+                                        viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                        vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam
+                                        ultricies
+                                        sem
+                                        vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis
+                                        faucibus.
+                                        Quisque sem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row ">
+                        <div class="col-lg-6 col-sm-6 offset-lg-1">
+                            <div class="about-img">
+                                <picture>
+                                    <img src="images/about/about-person-1.jpg" alt="about-person-1"
+                                        class="img-fluid lazyload">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-sm-6 about-img-right">
+                            <div class="about-img">
+                                <picture>
+                                    <img src="images/about/about-person-2.jpg" alt="about-person-2"
+                                        class="img-fluid lazyload">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    about part end
+    =================================================-->
+
+    <!-- ===============================================
+                    portfolio part start
+    =================================================-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 m-auto">
+                    <div class="common-header text-center">
+                        <h2 class="h3">My portfolio</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-wrapper">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio1.png" alt="portfolio1" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">Paylexi Landing Page Design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio2.jpg" alt="portfolio2" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">Minimal brochure design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio3.jpg" alt="portfolio3" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">airlines logo & branding design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio4.jpg" alt="portfolio4" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">Web application landing page</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio5.jpg" alt="portfolio5" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">Professional Social Media Service brochure design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item-wrapper">
+                        <div class="portfolio-item">
+                            <picture>
+                                <img src="images/portfolio/portfolio6.jpg" alt="portfolio6" class="img-fluid lazyload">
+                            </picture>
+                            <div class="overlay">
+                                <div class="port-btn">
+                                    <a href="portfolio1.html">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-header">
+                            <h3 class="h4">home decoration mobile app</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-btn text-center">
+                    <a href="portfolio.html">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    portfolio part end
+    =================================================-->
+
+    <!-- ===============================================
+                    shope part start
+    =================================================-->
+    <section id="shope">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 m-auto">
+                    <div class="common-header text-center">
+                        <h2 class="h3">My Shop</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row shope-wrapper">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="shope-item-wrapper">
+                        <a href="cotton-mask.html">
+                            <div class="shope-item">
+                                <picture>
+                                    <img src="images/Shop/cap.jpg" alt="cap" class="img-fluid lazyload">
+                                </picture>
+                                <div class="overlay">
+                                    <h3 class="h5">Brass quilt cap</h3>
+                                    <p>$23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="shope-item-wrapper">
+                        <a href="cotton-mask.html">
+                            <div class="shope-item">
+                                <picture>
+                                    <img src="images/Shop/mask.jpg" alt="mask" class="img-fluid lazyload">
+                                </picture>
+                                <div class="overlay">
+                                    <h3 class="h5">Brass quilt cap</h3>
+                                    <p>$23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="shope-item-wrapper">
+                        <a href="cotton-mask.html">
+                            <div class="shope-item">
+                                <picture>
+                                    <img src="images/Shop/black-cap.png" alt="black-cap" class="img-fluid lazyload">
+                                </picture>
+                                <div class="overlay">
+                                    <h3 class="h5">Brass quilt cap</h3>
+                                    <p>$23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 ms-auto">
+                    <div class="shope-item-wrapper">
+                        <a href="cotton-mask.html">
+                            <div class="shope-item">
+                                <picture>
+                                    <img src="images/Shop/black-t-shirt.png" alt="black-t-shirt"
+                                        class="img-fluid lazyload">
+                                </picture>
+                                <div class="overlay">
+                                    <h3 class="h5">Brass quilt cap</h3>
+                                    <p>$23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 me-auto">
+                    <div class="shope-item-wrapper">
+                        <a href="cotton-mask.html">
+                            <div class="shope-item">
+                                <picture>
+                                    <img src="images/Shop/white-t-shirt.jpg" alt="white-t-shirt"
+                                        class="img-fluid lazyload">
+                                </picture>
+                                <div class="overlay">
+                                    <h3 class="h5">Brass quilt cap</h3>
+                                    <p>$23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="port-btn text-center">
+                    <a href="shop.html">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    shop part end
+    =================================================-->
+
+    <!-- ===============================================
+                    action part start
+    =================================================-->
+    <section id="action">
+        <div class="container">
+            <div class="row action-row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="action-item">
+                        <h2 class="h3">are you looking for a ui designer?
+                            then you are in right place
+                        </h2>
+                        <p>Contact with me for your dream project</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="port-btn text-center">
+                        <a href="#">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    action part end
+    =================================================-->
+
+    <!-- ===============================================
+                    blog part start
+    =================================================-->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 m-auto">
+                    <div class="common-header text-center">
+                        <h2 class="h3">my blog</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-wrapper">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog1.jpg" alt="blog1" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog2.jpg" alt="blog2" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog3.jpg" alt="blog3" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog4.jpg" alt="blog4" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog5.jpg" alt="blog5" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item">
+                            <picture>
+                                <img src="images/blog/blog6.jpg" alt="blog6" class="img-fluid lazyload">
+                            </picture>
+                        </div>
+                        <div class="blog-text">
+                            <div class="row justify-content-space-between">
+                                <div class="col-lg-2">
+                                    <div class="blog-date">
+                                        <h3 class="h4">31</h3>
+                                        <p>mar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 offset-lg-1">
+                                    <div class="blog-header">
+                                        <h3 class="h4"><a href="blog-page.html">
+                                                how to sketch before starting the main design
+                                            </a></h3>
+                                        <p>technology - 3 min. to read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-btn text-center">
+                    <a href="blog.html">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    blog part end
+    =================================================-->
+
+    <!-- ===============================================
+                    footer part start
+    =================================================-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a href="#"><img src="images/logo/footer-logo.png" alt="footer-logo"></a>
+                            <p>Quisque sem ipsum, placerat nec tortor
+                                vel, blandit vestibulum libero.</p>
+                        </div>
+                        <div class="footer-contact">
+                            <h2 class="h4">
+                                follow on:
+                            </h2>
+                            <div class="contact-list">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 offset-lg-1">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">portfolio</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">mobile apps</a></li>
+                                <li><a href="#">brochures</a></li>
+                                <li><a href="#">theme templetes</a></li>
+                                <li><a href="#">logo & branding</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 offset-lg-1">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">blog</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">Design idea</a></li>
+                                <li><a href="#">typography</a></li>
+                                <li><a href="#">ux roles</a></li>
+                                <li><a href="#">color sence</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="footer-item">
+                        <div class="footer-header">
+                            <h2 class="h4">Help & Support</h2>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li><a href="#">contact</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">terms & conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-6 m-auto">
+                    <div class="copyright-info text-center">
+                        <p>Developed with love by Md Limon Ali © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                    footer part end
+    =================================================-->
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+
+    <!-- ===============================================
+                    js link start
+    =================================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ===============================================
+                    js link end
+    =================================================-->
+</body>
+
+</html>

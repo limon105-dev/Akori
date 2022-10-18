@@ -1,0 +1,150 @@
+#portfolio-item {
+    @include pgap(100px, 0, 120px, 0);
+
+    .header-row {
+        margin-bottom: 100px;
+
+        .common-header {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: "";
+                left: 34px;
+                top: 0;
+                @include div-body(18px, 18px, #FBD884);
+            }
+
+            &:before {
+                position: absolute;
+                content: "";
+                right: 12px;
+                bottom: 7px;
+                @include div-body(42px, 35px, $hover-color);
+            }
+
+            h3 {
+                @include fonts($heading_color, 58px, 600, 'Spartan');
+                line-height: 79px;
+                text-transform: capitalize;
+            }
+
+            span {
+                position: absolute;
+                right: 65px;
+                bottom: -11px;
+                @include div-body(18px, 18px, #F5F4F2);
+            }
+
+        }
+    }
+
+    .portfolio-wrapper {
+
+        .item-top-header {
+            margin-bottom: 60px;
+
+            h2 {
+                @include fonts($heading_color, 32px, 600, 'Spartan');
+                line-height: 42px;
+                text-transform: capitalize;
+            }
+        }
+
+        .item-wrapper {
+            margin-bottom: 48px;
+
+            .portfolio-item {
+                @include pgap(10px, 0, 10px, 0);
+                background-color: #F5F4F2;
+                position: relative;
+                overflow: hidden;
+
+                &:hover {
+                    .overlay {
+                        transform: scale(1);
+                        -webkit-transform: scale(1);
+                        -moz-transform: scale(1);
+                        -ms-transform: scale(1);
+                        -o-transform: scale(1);
+                        transform-origin: left;
+                    }
+
+                    picture {
+                        img {
+                            transform: scale(1.2);
+                            -webkit-transform: scale(1.2);
+                            -moz-transform: scale(1.2);
+                            -ms-transform: scale(1.2);
+                            -o-transform: scale(1.2);
+                        }
+                    }
+                }
+
+                picture {
+                    img {
+                        display: block;
+                        margin: auto;
+
+                        transition: .3s;
+                        -webkit-transition: .3s;
+                        -moz-transition: .3s;
+                        -ms-transition: .3s;
+                        -o-transition: .3s;
+                    }
+                }
+
+                .overlay {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    @include div-body(100%, 100%, rgba(33, 33, 33, 0.7));
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                    -moz-transform: scale(0);
+                    -ms-transform: scale(0);
+                    -o-transform: scale(0);
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+
+                    .port-btn {
+
+                        a {
+                            @include pgap(10px, 20px, 10px, 20px);
+                            border: 1px solid #fff;
+                            @include fonts(#fff, 12px, 500, 'Spartan');
+                            line-height: 20px;
+                            transition: .3s;
+                            -webkit-transition: .3s;
+                            -moz-transition: .3s;
+                            -ms-transition: .3s;
+                            -o-transition: .3s;
+
+                            &:hover {
+                                color: $heading_color;
+                                background-color: $hover-color;
+                                border-color: $hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item-header {
+                padding-top: 24px;
+
+                h4 {
+                    @include fonts($heading_color, 21px, 600, 'Spartan');
+                    line-height: 29px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

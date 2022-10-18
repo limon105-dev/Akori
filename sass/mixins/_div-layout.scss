@@ -1,0 +1,5 @@
+@mixin div-body($w, $h, $wbc) {
+    width: $w;
+    height: $h;
+    background-color: $wbc;
+}
