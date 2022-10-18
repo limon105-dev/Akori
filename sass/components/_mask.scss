@@ -75,7 +75,7 @@
         .swiper-button-next {
 
             &::after {
-                @include pgap(30px, 18px, 45px, 18px);
+                @include pgap(40px, 18px, 45px, 18px);
                 background-color: #C4C4C4;
             }
         }
@@ -83,13 +83,13 @@
         .swiper-button-prev {
 
             &::after {
-                @include pgap(30px, 18px, 45px, 18px);
+                @include pgap(40px, 18px, 45px, 18px);
                 background-color: #C4C4C4;
             }
         }
     }
 
-    .mask-left-side{
+    .mask-left-side {
         padding-left: 30px;
     }
 

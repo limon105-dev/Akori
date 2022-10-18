@@ -4302,14 +4302,14 @@ body {
   color: #fff;
 }
 #cotton-mask .mySwiper .swiper-button-next::after {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-right: 18px;
   padding-bottom: 45px;
   padding-left: 18px;
   background-color: #C4C4C4;
 }
 #cotton-mask .mySwiper .swiper-button-prev::after {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-right: 18px;
   padding-bottom: 45px;
   padding-left: 18px;
