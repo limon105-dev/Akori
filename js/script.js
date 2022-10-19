@@ -179,3 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ------ portfolio filter js end ------//
+
+function navSearch() {
+    document.getElementById("search").focus();
+}
