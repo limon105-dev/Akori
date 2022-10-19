@@ -339,6 +339,16 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    .navbar-expand-lg .navbar-collapse .search-bar .collapse.show {
+        width: 140px;
+        margin-right: 8px;
+    }
+    /* ===========================================
+             navbar part start
+    ============================================*/
 
     /* ===========================================
              banner part start
@@ -1903,6 +1913,11 @@
 
     .navbar-expand-lg .navbar-collapse .search-bar input {
         left: 66px;
+    }
+
+    .navbar-expand-lg .search-bar .collapse.show {
+        width: 150px;
+        margin-right: 10px;
     }
 
     /* ===========================================

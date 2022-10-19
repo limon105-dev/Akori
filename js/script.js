@@ -183,3 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function navSearch() {
     document.getElementById("search").focus();
 }
+
+function navSearchmedia() {
+    document.getElementById("searchmedia").focus();
+}
