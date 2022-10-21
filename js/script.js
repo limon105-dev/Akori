@@ -10,6 +10,24 @@ var swiper = new Swiper(".mySwiper_about", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            direction: "horizontal",
+        },
+        // when window width is >= 480px
+        480: {
+            direction: "horizontal",
+        },
+        // when window width is >= 640px
+        640: {
+            direction: "horizontal",
+        },
+        // when window width is >= 992px
+        992: {
+            direction: "vertical",
+        }
+    }
 });;
 
 // ------about swiper js end ------//

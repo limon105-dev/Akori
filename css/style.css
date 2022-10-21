@@ -466,10 +466,8 @@ body {
   -o-border-radius: 50%;
 }
 .about .about-row .about-img-right {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
+  display: block;
+  margin-top: auto;
 }
 
 #portfolio {
@@ -1152,19 +1150,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -1614,19 +1615,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -2124,19 +2128,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -2593,19 +2600,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -3536,19 +3546,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -4036,19 +4049,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -4554,19 +4570,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -5328,19 +5347,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -5760,19 +5782,22 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }
 
 .navbar-expand-lg {
@@ -6294,17 +6319,20 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #212121;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #FECC51;
+  color: #212121;
 }/*# sourceMappingURL=style.css.map */
